@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="http://127.0.0.1:8080/Wypozyczalnia/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Wypozyczalnia</title>
+        <vendor>Student221713</vendor>
+        <homepage href=""/>
+        <description>Wypozyczalnia</description>
+        <description kind="short">Wypozyczalnia</description>
+    </information>
+    <update check="always"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="Wypozyczalnia.jar" main="true"/>
+    </resources>
+    <application-desc main-class="WypozyczalniaAplikacja">
+    </application-desc>
+</jnlp>
